@@ -1,0 +1,67 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "What brings you here so late at night?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "talk",
+			"text": "Beep.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "erect",
+			"text": "Drop the act already.",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "talk",
+			"text": "I could feel your malicious intent the\\nmoment you stepped foot in here.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "confused",
+			"text": "Bep bee aa skoo dep?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "shock",
+			"text": "I wouldn't try the door if I were you.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "confused",
+			"text": "Now...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "talk",
+			"text": "I have a couple of questions to ask you...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "erect",
+			"text": "And you WILL answer them.",
+			"boxState": "normal",
+			"speed": 0.1,
+			"portrait": "psychic"
+		}
+	]
+}

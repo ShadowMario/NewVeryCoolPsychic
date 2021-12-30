@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				23,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "SENBF dies"
+		},
+		{
+			"offsets": [
+				-7,
+				51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "SENBF Dead confirm"
+		},
+		{
+			"offsets": [
+				-5,
+				-13
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "SENBF Dead Loop"
+		},
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SENBF Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				-16
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SENBF Sing Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-48
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SENBF Sing Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SENBF Sing Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				37
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SENBF Sing Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				22
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "SENBF Miss Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				1
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "SENBF Miss Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				65
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "SENBF Miss Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				33
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "SENBF Miss Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-9,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "cute",
+			"loop": false,
+			"name": "SENBF CUT DEBUG"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BFSenpai",
+	"position": [
+		20,
+		340
+	],
+	"healthicon": "bf-senpai",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		170,
+		111
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Welp, you got me!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-senpai"
+		},
+		{
+			"expression": "talk",
+			"text": "You're very clever, I'll give you that much.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-senpai"
+		},
+		{
+			"expression": "talk",
+			"text": "No ordinary person would have seen\\nthrough my facade.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-senpai"
+		},
+		{
+			"expression": "unamused",
+			"text": "Yeah, um...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "shock",
+			"text": "...Who are you again..?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "shock",
+			"text": "Kh...!",
+			"boxState": "angry",
+			"speed": 0.02,
+			"portrait": "bf-senpai"
+		},
+		{
+			"expression": "shock",
+			"text": "You don't even remember me?!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-senpai"
+		},
+		{
+			"expression": "confused",
+			"text": "Not in the slightest.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "nervous",
+			"text": "Seriously?! W-Whatever!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bf-senpai"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf-senpai",
+			"boxState": "normal",
+			"expression": "nervous",
+			"text": "Now listen here!"
+		},
+		{
+			"expression": "nervous",
+			"text": "I've taken this body hostage, so don't even try anything!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-senpai"
+		},
+		{
+			"expression": "nervous",
+			"text": "Summon Daddy Dearest here this instant, or else he gets it!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf-senpai"
+		},
+		{
+			"expression": "confused",
+			"text": "...Daddy Dearest, huh..?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "unamused",
+			"text": "I don't know what your deal is, but...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "erect",
+			"text": "I don't take commands from freaks of nature like you.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "psychic"
+		},
+		{
+			"expression": "pissed",
+			"text": "What did you just call me?!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bf-senpai"
+		}
+	]
+}

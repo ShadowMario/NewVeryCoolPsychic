@@ -1,0 +1,89 @@
+{
+	"position": [
+		140,
+		-20
+	],
+	"dialogue_pos": "left",
+	"scale": 1.4,
+	"image": "Psychic_Dialogue",
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "PSYCHIC0",
+			"loop_name": "PSYCHIC0"
+		},
+		{
+			"idle_offsets": [
+				14,
+				0
+			],
+			"anim": "confused",
+			"loop_offsets": [
+				14,
+				0
+			],
+			"idle_name": "PSYCHIC CONFUSED",
+			"loop_name": "PSYCHIC CONFUSED"
+		},
+		{
+			"idle_offsets": [
+				-30,
+				0
+			],
+			"anim": "erect",
+			"loop_offsets": [
+				-30,
+				0
+			],
+			"idle_name": "PSYCHIC EXCITED",
+			"loop_name": "PSYCHIC EXCITED"
+		},
+		{
+			"idle_offsets": [
+				-50,
+				-50
+			],
+			"anim": "piss",
+			"loop_offsets": [
+				-50,
+				-50
+			],
+			"idle_name": "PSYCHIC ANNOYED",
+			"loop_name": "PSYCHIC ANNOYED"
+		},
+		{
+			"idle_offsets": [
+				-30,
+				-16
+			],
+			"anim": "shock",
+			"loop_offsets": [
+				-30,
+				-16
+			],
+			"idle_name": "PSYCHIC SHOCK",
+			"loop_name": "PSYCHIC SHOCK"
+		},
+		{
+			"loop_name": "PSYCHIC UNAMUSED",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "PSYCHIC UNAMUSED",
+			"anim": "unamused",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

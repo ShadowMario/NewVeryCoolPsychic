@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Psychic_Dialogue.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PSYCHIC0000" x="4" y="4" width="526" height="450" pivotX="-30.8" pivotY="-42.9" frameX="0" frameY="-5" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC0001" x="534" y="4" width="520" height="450" frameX="-6" frameY="-5" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC0002" x="534" y="4" width="520" height="450" frameX="-6" frameY="-5" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC0003" x="1058" y="4" width="516" height="455" frameX="-10" frameY="0" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC0004" x="1058" y="4" width="516" height="455" frameX="-10" frameY="0" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC0005" x="1578" y="4" width="515" height="445" frameX="-11" frameY="-10" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC0006" x="1578" y="4" width="515" height="445" frameX="-11" frameY="-10" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC0007" x="4" y="4" width="526" height="450" frameX="0" frameY="-5" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC ANNOYED0000" x="2097" y="4" width="434" height="417" pivotX="-57.5" pivotY="-111.8" frameX="0" frameY="-1" frameWidth="434" frameHeight="418"/>
+	<SubTexture name="PSYCHIC ANNOYED0001" x="2097" y="4" width="434" height="417" frameX="0" frameY="-1" frameWidth="434" frameHeight="418"/>
+	<SubTexture name="PSYCHIC ANNOYED0002" x="2535" y="4" width="434" height="417" frameX="0" frameY="-1" frameWidth="434" frameHeight="418"/>
+	<SubTexture name="PSYCHIC ANNOYED0003" x="2535" y="4" width="434" height="417" frameX="0" frameY="-1" frameWidth="434" frameHeight="418"/>
+	<SubTexture name="PSYCHIC ANNOYED0004" x="2973" y="4" width="434" height="416" frameX="0" frameY="-2" frameWidth="434" frameHeight="418"/>
+	<SubTexture name="PSYCHIC ANNOYED0005" x="2973" y="4" width="434" height="416" frameX="0" frameY="-2" frameWidth="434" frameHeight="418"/>
+	<SubTexture name="PSYCHIC ANNOYED0006" x="3411" y="4" width="434" height="418"/>
+	<SubTexture name="PSYCHIC ANNOYED0007" x="3411" y="4" width="434" height="418"/>
+	<SubTexture name="PSYCHIC CONFUSED0000" x="4" y="463" width="477" height="461" pivotX="-20.65" pivotY="-34.6" frameX="0" frameY="-5" frameWidth="477" frameHeight="466"/>
+	<SubTexture name="PSYCHIC CONFUSED0001" x="485" y="463" width="473" height="463" frameX="-4" frameY="-3" frameWidth="477" frameHeight="466"/>
+	<SubTexture name="PSYCHIC CONFUSED0002" x="485" y="463" width="473" height="463" frameX="-4" frameY="-3" frameWidth="477" frameHeight="466"/>
+	<SubTexture name="PSYCHIC CONFUSED0003" x="962" y="463" width="467" height="466" frameX="-10" frameY="0" frameWidth="477" frameHeight="466"/>
+	<SubTexture name="PSYCHIC CONFUSED0004" x="962" y="463" width="467" height="466" frameX="-10" frameY="0" frameWidth="477" frameHeight="466"/>
+	<SubTexture name="PSYCHIC CONFUSED0005" x="1433" y="463" width="465" height="455" frameX="-12" frameY="-11" frameWidth="477" frameHeight="466"/>
+	<SubTexture name="PSYCHIC CONFUSED0006" x="1433" y="463" width="465" height="455" frameX="-12" frameY="-11" frameWidth="477" frameHeight="466"/>
+	<SubTexture name="PSYCHIC CONFUSED0007" x="4" y="463" width="477" height="461" frameX="0" frameY="-5" frameWidth="477" frameHeight="466"/>
+	<SubTexture name="PSYCHIC EXCITED0000" x="1902" y="463" width="541" height="471" pivotX="-38.05" pivotY="-46.8" frameX="0" frameY="-4" frameWidth="541" frameHeight="475"/>
+	<SubTexture name="PSYCHIC EXCITED0001" x="2447" y="463" width="537" height="470" frameX="-4" frameY="-5" frameWidth="541" frameHeight="475"/>
+	<SubTexture name="PSYCHIC EXCITED0002" x="2447" y="463" width="537" height="470" frameX="-4" frameY="-5" frameWidth="541" frameHeight="475"/>
+	<SubTexture name="PSYCHIC EXCITED0003" x="2988" y="463" width="532" height="475" frameX="-9" frameY="0" frameWidth="541" frameHeight="475"/>
+	<SubTexture name="PSYCHIC EXCITED0004" x="2988" y="463" width="532" height="475" frameX="-9" frameY="0" frameWidth="541" frameHeight="475"/>
+	<SubTexture name="PSYCHIC EXCITED0005" x="3524" y="463" width="530" height="465" frameX="-11" frameY="-10" frameWidth="541" frameHeight="475"/>
+	<SubTexture name="PSYCHIC EXCITED0006" x="3524" y="463" width="530" height="465" frameX="-11" frameY="-10" frameWidth="541" frameHeight="475"/>
+	<SubTexture name="PSYCHIC EXCITED0007" x="1902" y="463" width="541" height="471" frameX="0" frameY="-4" frameWidth="541" frameHeight="475"/>
+	<SubTexture name="PSYCHIC SHOCK0000" x="4" y="942" width="512" height="490" pivotX="-44" pivotY="-53.2"/>
+	<SubTexture name="PSYCHIC SHOCK0001" x="520" y="942" width="507" height="490" frameX="-5" frameY="0" frameWidth="512" frameHeight="490"/>
+	<SubTexture name="PSYCHIC SHOCK0002" x="1031" y="942" width="507" height="490" frameX="-5" frameY="0" frameWidth="512" frameHeight="490"/>
+	<SubTexture name="PSYCHIC SHOCK0003" x="1542" y="942" width="507" height="488" frameX="-5" frameY="-2" frameWidth="512" frameHeight="490"/>
+	<SubTexture name="PSYCHIC SHOCK0004" x="2053" y="942" width="507" height="488" frameX="-5" frameY="-2" frameWidth="512" frameHeight="490"/>
+	<SubTexture name="PSYCHIC SHOCK0005" x="2564" y="942" width="507" height="489" frameX="-5" frameY="-1" frameWidth="512" frameHeight="490"/>
+	<SubTexture name="PSYCHIC SHOCK0006" x="3075" y="942" width="507" height="489" frameX="-5" frameY="-1" frameWidth="512" frameHeight="490"/>
+	<SubTexture name="PSYCHIC SHOCK0007" x="4" y="1436" width="512" height="490"/>
+	<SubTexture name="PSYCHIC UNAMUSED0000" x="520" y="1436" width="526" height="450" pivotX="-30.8" pivotY="-42.9" frameX="0" frameY="-5" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC UNAMUSED0001" x="1050" y="1436" width="520" height="450" frameX="-6" frameY="-5" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC UNAMUSED0002" x="1050" y="1436" width="520" height="450" frameX="-6" frameY="-5" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC UNAMUSED0003" x="1574" y="1436" width="516" height="455" frameX="-10" frameY="0" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC UNAMUSED0004" x="1574" y="1436" width="516" height="455" frameX="-10" frameY="0" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC UNAMUSED0005" x="2094" y="1436" width="515" height="445" frameX="-11" frameY="-10" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC UNAMUSED0006" x="2094" y="1436" width="515" height="445" frameX="-11" frameY="-10" frameWidth="526" frameHeight="455"/>
+	<SubTexture name="PSYCHIC UNAMUSED0007" x="520" y="1436" width="526" height="450" frameX="0" frameY="-5" frameWidth="526" frameHeight="455"/>
+</TextureAtlas>

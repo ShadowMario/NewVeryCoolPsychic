@@ -1,0 +1,67 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "psychic",
+			"boxState": "normal",
+			"expression": "piss",
+			"text": "At least that guy's gone, he was getting on my nerves."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "psychic",
+			"boxState": "normal",
+			"expression": "unamused",
+			"text": "Let me guess, you're another thorn in my side, huh?"
+		},
+		{
+			"speed": 0.13,
+			"portrait": "spirit",
+			"boxState": "normal",
+			"expression": "bruh",
+			"text": ". . ."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...You took the words straight from my mouth..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I had finally escaped that wretched game, and of course YOU are here to greet me..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...No matter..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...I'll just kill you and finally get my revenge... It's really that simple..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...You don't mind your body being dissipated, right? It's only fair..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "psychic",
+			"boxState": "normal",
+			"expression": "erect",
+			"text": "You took the words straight from my mouth."
+		}
+	]
+}

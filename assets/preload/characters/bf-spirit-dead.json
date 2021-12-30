@@ -1,0 +1,76 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				33,
+				-37
+			],
+			"loop": true,
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF death loop",
+			"indices": []
+		},
+		{
+			"offsets": [
+				80,
+				530
+			],
+			"loop": false,
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "BF dies",
+			"indices": []
+		},
+		{
+			"offsets": [
+				80,
+				530
+			],
+			"loop": false,
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "BF dies",
+			"indices": [
+				21,
+				20,
+				19,
+				18,
+				17,
+				16,
+				15,
+				14,
+				13,
+				12,
+				11,
+				10,
+				9,
+				8,
+				7,
+				6,
+				5,
+				4,
+				3
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf-spirit-dead",
+	"position": [
+		0,
+		380
+	],
+	"healthicon": "bf-spirit",
+	"flip_x": true,
+	"healthbar_colors": [
+		247,
+		58,
+		107
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

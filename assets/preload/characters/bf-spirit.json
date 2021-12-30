@@ -1,0 +1,386 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Freak BF Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				172,
+				104
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Freak BF Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Freak BF Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				265
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Freak BF Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-58,
+				113
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Freak BF Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				119,
+				104
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Freak BF MISS LEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-14,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Freak BF MISS DOWN"
+		},
+		{
+			"offsets": [
+				-22,
+				135
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Freak BF MISS UP"
+		},
+		{
+			"offsets": [
+				-50,
+				81
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Freak BF MISS RIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				119,
+				104
+			],
+			"anim": "singLEFTmiss-alt",
+			"fps": 24,
+			"name": "Freak BF MISS LEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-14,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss-alt",
+			"indices": [],
+			"name": "Freak BF MISS DOWN"
+		},
+		{
+			"offsets": [
+				-22,
+				135
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss-alt",
+			"indices": [],
+			"name": "Freak BF MISS UP"
+		},
+		{
+			"offsets": [
+				-50,
+				81
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss-alt",
+			"indices": [],
+			"name": "Freak BF MISS RIGHT"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "Freak BF Idle",
+			"indices": [
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				172,
+				104
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Freak BF Left",
+			"indices": [
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-58,
+				113
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Freak BF Right",
+			"indices": [
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-29,
+				265
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Freak BF Up",
+			"indices": [
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN-loop",
+			"fps": 24,
+			"name": "Freak BF Down",
+			"indices": [
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"offsets": [
+				116,
+				103
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "Freak BF LEFT ALT"
+		},
+		{
+			"offsets": [
+				-15,
+				11
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "Freak BF DOWN ALT"
+		},
+		{
+			"offsets": [
+				-21,
+				100
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "Freak BF UP ALT"
+		},
+		{
+			"offsets": [
+				-46,
+				83
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "Freak BF RIGHT ALT"
+		},
+		{
+			"offsets": [
+				116,
+				103
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-alt-loop",
+			"indices": [
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"name": "Freak BF LEFT ALT"
+		},
+		{
+			"offsets": [
+				-15,
+				11
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN-alt-loop",
+			"indices": [
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"name": "Freak BF DOWN ALT"
+		},
+		{
+			"offsets": [
+				-46,
+				83
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-alt-loop",
+			"indices": [
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"name": "Freak BF RIGHT ALT"
+		},
+		{
+			"offsets": [
+				-21,
+				100
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-alt-loop",
+			"indices": [
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"name": "Freak BF UP ALT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfFreaky",
+	"position": [
+		-40,
+		-40
+	],
+	"healthicon": "bf-spirit",
+	"flip_x": true,
+	"healthbar_colors": [
+		247,
+		58,
+		107
+	],
+	"camera_position": [
+		0,
+		160
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

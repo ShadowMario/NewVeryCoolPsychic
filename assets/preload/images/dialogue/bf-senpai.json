@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		-20,
+		-20
+	],
+	"scale": 1,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "BFpai talk loop",
+			"idle_name": "BFsenpai talk"
+		},
+		{
+			"loop_name": "BFpai nervous loop",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "BFsenpai nervous",
+			"anim": "nervous",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "BFpai shock loop",
+			"idle_offsets": [
+				4,
+				3
+			],
+			"idle_name": "BFsenpai shock",
+			"anim": "shock",
+			"loop_offsets": [
+				4,
+				4
+			]
+		},
+		{
+			"loop_name": "BFpai pissed loop",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "BFsenpai pissed",
+			"anim": "pissed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "BFSenpai_Dialogue"
+}

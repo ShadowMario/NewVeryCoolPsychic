@@ -1,0 +1,24 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		70,
+		-150
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				2,
+				-10
+			],
+			"loop_name": "SPIRIT LOOP",
+			"idle_name": "SPIRIT0"
+		}
+	],
+	"image": "Spirit_Dialogue"
+}

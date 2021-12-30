@@ -1,0 +1,48 @@
+{
+	"songs": [
+		[
+			"Psychic",
+			"psychic",
+			[
+				88,
+				0,
+				147
+			]
+		],
+		[
+			"Wilter",
+			"psychic",
+			[
+				88,
+				0,
+				147
+			]
+		],
+		[
+			"Uproar",
+			"psychic",
+			[
+				88,
+				0,
+				147
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "fireplace",
+	"weekCharacters": [
+		"psychic",
+		"bf",
+		"gf"
+	],
+	"storyName": "Mind Games",
+	"weekName": "Week Psi",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

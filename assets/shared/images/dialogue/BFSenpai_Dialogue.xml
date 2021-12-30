@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BFSenpai_Dialogue.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BFsenpai nervous0000" x="4" y="4" width="451" height="539" frameX="0" frameY="-7" frameWidth="461" frameHeight="546" pivotX="0" pivotY="-5.6"/>
+	<SubTexture name="BFpai nervous loop0000" x="459" y="4" width="458" height="546" pivotX="0" pivotY="2" frameX="-3" frameY="0" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai nervous loop0001" x="459" y="4" width="458" height="546" frameX="-3" frameY="0" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai nervous loop0002" x="921" y="4" width="455" height="540" frameX="-2" frameY="-6" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai nervous loop0003" x="921" y="4" width="455" height="540" frameX="-2" frameY="-6" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai nervous loop0004" x="1380" y="4" width="451" height="539" frameX="0" frameY="-7" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai nervous loop0005" x="1380" y="4" width="451" height="539" frameX="0" frameY="-7" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFsenpai pissed0000" x="1835" y="4" width="451" height="539" frameX="0" frameY="-7" frameWidth="461" frameHeight="546" pivotX="0" pivotY="-5.6"/>
+	<SubTexture name="BFpai pissed loop0000" x="2290" y="4" width="458" height="546" pivotX="0" pivotY="2" frameX="-3" frameY="0" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai pissed loop0001" x="2290" y="4" width="458" height="546" frameX="-3" frameY="0" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai pissed loop0002" x="2752" y="4" width="455" height="540" frameX="-2" frameY="-6" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai pissed loop0003" x="2752" y="4" width="455" height="540" frameX="-2" frameY="-6" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai pissed loop0004" x="3211" y="4" width="451" height="539" frameX="0" frameY="-7" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFpai pissed loop0005" x="3211" y="4" width="451" height="539" frameX="0" frameY="-7" frameWidth="461" frameHeight="546"/>
+	<SubTexture name="BFsenpai shock0000" x="958" y="554" width="452" height="591" pivotX="0" pivotY="0" frameX="-6" frameY="40" frameWidth="483" frameHeight="591"/>
+	<SubTexture name="BFpai shock loop0000" x="4" y="554" width="483" height="591" pivotX="0" pivotY="0" frameX="15" frameY="40" frameWidth="483" frameHeight="591"/>
+	<SubTexture name="BFpai shock loop0001" x="4" y="554" width="483" height="591" frameX="15" frameY="40" frameWidth="483" frameHeight="591"/>
+	<SubTexture name="BFpai shock loop0002" x="491" y="554" width="463" height="591" frameX="0" frameY="40" frameWidth="483" frameHeight="591"/>
+	<SubTexture name="BFpai shock loop0003" x="491" y="554" width="463" height="591" frameX="0" frameY="40" frameWidth="483" frameHeight="591"/>
+	<SubTexture name="BFpai shock loop0004" x="958" y="554" width="452" height="591" frameX="-6" frameY="40" frameWidth="483" frameHeight="591"/>
+	<SubTexture name="BFpai shock loop0005" x="958" y="554" width="452" height="591" frameX="-6" frameY="40" frameWidth="483" frameHeight="591"/>
+	<SubTexture name="BFsenpai talk0000" x="1414" y="554" width="451" height="539" pivotX="0" pivotY="-5.6" frameX="0" frameY="-8" frameWidth="461" frameHeight="547"/>
+	<SubTexture name="BFpai talk loop0000" x="1869" y="554" width="458" height="547" pivotX="3.3" pivotY="-10.9" frameX="-3" frameY="0" frameWidth="461" frameHeight="547"/>
+	<SubTexture name="BFpai talk loop0001" x="1869" y="554" width="458" height="547" frameX="-3" frameY="0" frameWidth="461" frameHeight="547"/>
+	<SubTexture name="BFpai talk loop0002" x="2331" y="554" width="454" height="541" frameX="-2" frameY="-6" frameWidth="461" frameHeight="547"/>
+	<SubTexture name="BFpai talk loop0003" x="2331" y="554" width="454" height="541" frameX="-2" frameY="-6" frameWidth="461" frameHeight="547"/>
+	<SubTexture name="BFpai talk loop0004" x="2789" y="554" width="451" height="539" frameX="0" frameY="-8" frameWidth="461" frameHeight="547"/>
+	<SubTexture name="BFpai talk loop0005" x="2789" y="554" width="451" height="539" frameX="0" frameY="-8" frameWidth="461" frameHeight="547"/>
+</TextureAtlas>

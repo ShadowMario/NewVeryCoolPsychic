@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfFreaky.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Freak BF DOWN ALT0000" x="4" y="4" width="424" height="818" pivotX="37.9" pivotY="511.3" frameX="-28" frameY="0" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0001" x="4" y="4" width="424" height="818" frameX="-28" frameY="0" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0002" x="432" y="4" width="460" height="804" frameX="-1" frameY="-13" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0003" x="432" y="4" width="460" height="804" frameX="-1" frameY="-13" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0004" x="896" y="4" width="459" height="805" frameX="0" frameY="-12" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0005" x="896" y="4" width="459" height="805" frameX="0" frameY="-12" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0006" x="1359" y="4" width="446" height="792" frameX="-9" frameY="-25" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0007" x="1359" y="4" width="446" height="792" frameX="-9" frameY="-25" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0008" x="1809" y="4" width="453" height="795" frameX="-1" frameY="-22" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0009" x="1809" y="4" width="453" height="795" frameX="-1" frameY="-22" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0010" x="2266" y="4" width="462" height="798" frameX="-3" frameY="-19" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0011" x="2266" y="4" width="462" height="798" frameX="-3" frameY="-19" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0012" x="2732" y="4" width="448" height="793" frameX="-17" frameY="-24" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0013" x="2732" y="4" width="448" height="793" frameX="-17" frameY="-24" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0014" x="3184" y="4" width="451" height="797" frameX="-16" frameY="-20" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0015" x="3184" y="4" width="451" height="797" frameX="-16" frameY="-20" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0016" x="432" y="4" width="460" height="804" frameX="-1" frameY="-13" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0017" x="432" y="4" width="460" height="804" frameX="-1" frameY="-13" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0018" x="896" y="4" width="459" height="805" frameX="0" frameY="-12" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0019" x="896" y="4" width="459" height="805" frameX="0" frameY="-12" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0020" x="1359" y="4" width="446" height="792" frameX="-9" frameY="-25" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0021" x="1359" y="4" width="446" height="792" frameX="-9" frameY="-25" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0022" x="1809" y="4" width="453" height="795" frameX="-1" frameY="-22" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0023" x="1809" y="4" width="453" height="795" frameX="-1" frameY="-22" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0024" x="2266" y="4" width="462" height="798" frameX="-3" frameY="-19" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0025" x="2266" y="4" width="462" height="798" frameX="-3" frameY="-19" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0026" x="2732" y="4" width="448" height="793" frameX="-17" frameY="-24" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0027" x="2732" y="4" width="448" height="793" frameX="-17" frameY="-24" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0028" x="3184" y="4" width="451" height="797" frameX="-16" frameY="-20" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF DOWN ALT0029" x="3184" y="4" width="451" height="797" frameX="-16" frameY="-20" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF Down0000" x="3639" y="4" width="509" height="774" pivotX="51.35" pivotY="499.25" frameX="0" frameY="-33" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0001" x="3639" y="4" width="509" height="774" frameX="0" frameY="-33" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0002" x="4152" y="4" width="481" height="784" frameX="-7" frameY="-23" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0003" x="4637" y="4" width="481" height="782" frameX="-7" frameY="-23" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0004" x="5122" y="4" width="451" height="797" frameX="-30" frameY="-8" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0005" x="5577" y="4" width="451" height="797" frameX="-30" frameY="-8" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0006" x="6032" y="4" width="460" height="804" frameX="-15" frameY="-1" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0007" x="6032" y="4" width="460" height="804" frameX="-15" frameY="-1" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0008" x="6496" y="4" width="459" height="805" frameX="-14" frameY="0" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0009" x="6496" y="4" width="459" height="805" frameX="-14" frameY="0" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0010" x="6959" y="4" width="446" height="792" frameX="-23" frameY="-13" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0011" x="6959" y="4" width="446" height="792" frameX="-23" frameY="-13" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0012" x="7409" y="4" width="453" height="795" frameX="-15" frameY="-10" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0013" x="7409" y="4" width="453" height="795" frameX="-15" frameY="-10" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0014" x="4" y="826" width="462" height="798" frameX="-17" frameY="-7" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0015" x="4" y="826" width="462" height="798" frameX="-17" frameY="-7" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0016" x="470" y="826" width="448" height="793" frameX="-31" frameY="-12" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0017" x="470" y="826" width="448" height="793" frameX="-31" frameY="-12" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0018" x="922" y="826" width="451" height="797" frameX="-30" frameY="-8" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0019" x="922" y="826" width="451" height="797" frameX="-30" frameY="-8" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0020" x="1377" y="826" width="460" height="804" frameX="-15" frameY="-1" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0021" x="1377" y="826" width="460" height="804" frameX="-15" frameY="-1" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0022" x="1841" y="826" width="459" height="805" frameX="-14" frameY="0" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0023" x="1841" y="826" width="459" height="805" frameX="-14" frameY="0" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0024" x="2304" y="826" width="446" height="792" frameX="-23" frameY="-13" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0025" x="2304" y="826" width="446" height="792" frameX="-23" frameY="-13" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0026" x="2754" y="826" width="453" height="795" frameX="-15" frameY="-10" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0027" x="2754" y="826" width="453" height="795" frameX="-15" frameY="-10" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0028" x="3211" y="826" width="462" height="798" frameX="-17" frameY="-7" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Down0029" x="3211" y="826" width="462" height="798" frameX="-17" frameY="-7" frameWidth="509" frameHeight="807"/>
+	<SubTexture name="Freak BF Idle0000" x="3677" y="826" width="390" height="790" pivotX="17.3" pivotY="433.65" frameX="0" frameY="-9" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0001" x="3677" y="826" width="390" height="790" frameX="0" frameY="-9" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0002" x="4071" y="826" width="379" height="794" frameX="-11" frameY="-5" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0003" x="4071" y="826" width="379" height="794" frameX="-11" frameY="-5" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0004" x="4454" y="826" width="376" height="794" frameX="-13" frameY="-5" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0005" x="4454" y="826" width="376" height="794" frameX="-13" frameY="-5" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0006" x="4834" y="826" width="376" height="793" frameX="-16" frameY="-6" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0007" x="4834" y="826" width="376" height="793" frameX="-16" frameY="-6" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0008" x="5214" y="826" width="374" height="794" frameX="-15" frameY="-5" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0009" x="5214" y="826" width="374" height="794" frameX="-15" frameY="-5" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0010" x="5592" y="826" width="369" height="795" frameX="-17" frameY="-4" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0011" x="5592" y="826" width="369" height="795" frameX="-17" frameY="-4" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0012" x="5965" y="826" width="372" height="794" frameX="-15" frameY="-5" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF Idle0013" x="5965" y="826" width="372" height="794" frameX="-15" frameY="-5" frameWidth="392" frameHeight="799"/>
+	<SubTexture name="Freak BF LEFT ALT0000" x="6341" y="826" width="441" height="847" pivotX="84.15" pivotY="517.25" frameX="-72" frameY="-56" frameWidth="515" frameHeight="903"/>
+	<SubTexture name="Freak BF LEFT ALT0001" x="6341" y="826" width="441" height="847" frameX="-72" frameY="-56" frameWidth="515" frameHeight="903"/>
+	<SubTexture name="Freak BF LEFT ALT0002" x="6786" y="826" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0003" x="6786" y="826" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0004" x="7305" y="826" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0005" x="7305" y="826" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0006" x="4" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0007" x="4" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0008" x="523" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0009" x="523" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0010" x="1042" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0011" x="1042" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0012" x="1561" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0013" x="1561" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0014" x="2080" y="1733" width="467" height="847" frameX="-48" frameY="-56" frameWidth="515" frameHeight="903"/>
+	<SubTexture name="Freak BF LEFT ALT0015" x="2080" y="1733" width="467" height="847" frameX="-48" frameY="-56" frameWidth="515" frameHeight="903"/>
+	<SubTexture name="Freak BF LEFT ALT0016" x="6786" y="826" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0017" x="6786" y="826" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0018" x="7305" y="826" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0019" x="7305" y="826" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0020" x="4" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0021" x="4" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0022" x="523" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0023" x="523" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0024" x="1042" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0025" x="1042" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0026" x="1561" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0027" x="1561" y="1733" width="515" height="903"/>
+	<SubTexture name="Freak BF LEFT ALT0028" x="2080" y="1733" width="467" height="847" frameX="-48" frameY="-56" frameWidth="515" frameHeight="903"/>
+	<SubTexture name="Freak BF LEFT ALT0029" x="2080" y="1733" width="467" height="847" frameX="-48" frameY="-56" frameWidth="515" frameHeight="903"/>
+	<SubTexture name="Freak BF Left0000" x="2551" y="1733" width="526" height="829" pivotX="139.5" pivotY="517.25" frameX="-47" frameY="-79" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0001" x="2551" y="1733" width="526" height="829" frameX="-47" frameY="-79" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0002" x="3081" y="1733" width="569" height="886" frameX="0" frameY="-17" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0003" x="3654" y="1733" width="572" height="886" frameX="0" frameY="-17" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0004" x="4230" y="1733" width="537" height="903" frameX="-35" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0005" x="4771" y="1733" width="535" height="903" frameX="-35" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0006" x="5310" y="1733" width="525" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0007" x="5310" y="1733" width="525" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0008" x="5839" y="1733" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0009" x="5839" y="1733" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0010" x="6358" y="1733" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0011" x="6358" y="1733" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0012" x="6877" y="1733" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0013" x="6877" y="1733" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0014" x="7396" y="1733" width="467" height="847" frameX="-103" frameY="-56" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0015" x="7396" y="1733" width="467" height="847" frameX="-103" frameY="-56" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0016" x="4" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0017" x="4" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0018" x="523" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0019" x="523" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0020" x="1042" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0021" x="1042" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0022" x="1561" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0023" x="1561" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0024" x="2080" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0025" x="2080" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0026" x="2599" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0027" x="2599" y="2640" width="515" height="903" frameX="-55" frameY="0" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0028" x="3118" y="2640" width="467" height="847" frameX="-103" frameY="-56" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF Left0029" x="3118" y="2640" width="467" height="847" frameX="-103" frameY="-56" frameWidth="580" frameHeight="908"/>
+	<SubTexture name="Freak BF MISS DOWN0000" x="3589" y="2640" width="424" height="818" pivotX="37.9" pivotY="511.3" frameX="-28" frameY="0" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0001" x="4017" y="2640" width="443" height="815" frameX="-9" frameY="-1" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0002" x="4017" y="2640" width="443" height="815" frameX="-9" frameY="-1" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0003" x="4464" y="2640" width="459" height="804" frameX="0" frameY="-12" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0004" x="4464" y="2640" width="459" height="804" frameX="0" frameY="-12" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0005" x="4927" y="2640" width="446" height="791" frameX="-9" frameY="-25" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0006" x="4927" y="2640" width="446" height="791" frameX="-9" frameY="-25" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0007" x="5377" y="2640" width="453" height="794" frameX="-1" frameY="-22" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0008" x="5377" y="2640" width="453" height="794" frameX="-1" frameY="-22" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0009" x="5834" y="2640" width="462" height="797" frameX="-3" frameY="-19" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0010" x="5834" y="2640" width="462" height="797" frameX="-3" frameY="-19" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0011" x="6300" y="2640" width="448" height="792" frameX="-17" frameY="-24" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0012" x="6300" y="2640" width="448" height="792" frameX="-17" frameY="-24" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0013" x="6752" y="2640" width="451" height="796" frameX="-16" frameY="-20" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0014" x="6752" y="2640" width="451" height="796" frameX="-16" frameY="-20" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0015" x="7207" y="2640" width="460" height="803" frameX="-1" frameY="-13" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0016" x="7207" y="2640" width="460" height="803" frameX="-1" frameY="-13" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0017" x="4464" y="2640" width="459" height="804" frameX="0" frameY="-12" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0018" x="4464" y="2640" width="459" height="804" frameX="0" frameY="-12" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0019" x="4927" y="2640" width="446" height="791" frameX="-9" frameY="-25" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0020" x="4927" y="2640" width="446" height="791" frameX="-9" frameY="-25" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0021" x="5377" y="2640" width="453" height="794" frameX="-1" frameY="-22" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0022" x="5377" y="2640" width="453" height="794" frameX="-1" frameY="-22" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0023" x="5834" y="2640" width="462" height="797" frameX="-3" frameY="-19" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0024" x="5834" y="2640" width="462" height="797" frameX="-3" frameY="-19" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0025" x="6300" y="2640" width="448" height="792" frameX="-17" frameY="-24" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0026" x="6300" y="2640" width="448" height="792" frameX="-17" frameY="-24" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0027" x="6752" y="2640" width="451" height="796" frameX="-16" frameY="-20" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0028" x="6752" y="2640" width="451" height="796" frameX="-16" frameY="-20" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS DOWN0029" x="7207" y="2640" width="460" height="803" frameX="-1" frameY="-13" frameWidth="467" frameHeight="818"/>
+	<SubTexture name="Freak BF MISS LEFT0000" x="7671" y="2640" width="441" height="847" pivotX="83.8" pivotY="517.25" frameX="-71" frameY="-56" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0001" x="4" y="3547" width="453" height="847" frameX="-63" frameY="-56" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0002" x="461" y="3547" width="533" height="903"/>
+	<SubTexture name="Freak BF MISS LEFT0003" x="998" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0004" x="1517" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0005" x="1517" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0006" x="2036" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0007" x="2036" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0008" x="2555" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0009" x="2555" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0010" x="3074" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0011" x="3074" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0012" x="3593" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0013" x="3593" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0014" x="4112" y="3547" width="463" height="847" frameX="-52" frameY="-56" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0015" x="4112" y="3547" width="463" height="847" frameX="-52" frameY="-56" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0016" x="998" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0017" x="998" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0018" x="1517" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0019" x="1517" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0020" x="2036" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0021" x="2036" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0022" x="2555" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0023" x="2555" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0024" x="3074" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0025" x="3074" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0026" x="3593" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0027" x="3593" y="3547" width="515" height="903" frameX="0" frameY="0" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0028" x="4112" y="3547" width="463" height="847" frameX="-52" frameY="-56" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS LEFT0029" x="4112" y="3547" width="463" height="847" frameX="-52" frameY="-56" frameWidth="533" frameHeight="903"/>
+	<SubTexture name="Freak BF MISS RIGHT0000" x="4579" y="3547" width="460" height="890" pivotX="15.3" pivotY="460" frameX="0" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0001" x="5043" y="3547" width="452" height="870" frameX="-15" frameY="-20" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0002" x="5043" y="3547" width="452" height="870" frameX="-15" frameY="-20" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0003" x="5499" y="3547" width="465" height="881" frameX="-16" frameY="-9" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0004" x="5499" y="3547" width="465" height="881" frameX="-16" frameY="-9" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0005" x="5968" y="3547" width="467" height="879" frameX="-16" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0006" x="5968" y="3547" width="467" height="879" frameX="-16" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0007" x="6439" y="3547" width="467" height="884" frameX="-16" frameY="-6" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0008" x="6439" y="3547" width="467" height="884" frameX="-16" frameY="-6" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0009" x="6910" y="3547" width="464" height="872" frameX="-16" frameY="-18" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0010" x="6910" y="3547" width="464" height="872" frameX="-16" frameY="-18" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0011" x="7378" y="3547" width="466" height="879" frameX="-16" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0012" x="7378" y="3547" width="466" height="879" frameX="-16" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0013" x="4" y="4454" width="467" height="890" frameX="-16" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0014" x="4" y="4454" width="467" height="890" frameX="-16" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0015" x="475" y="4454" width="464" height="870" frameX="-16" frameY="-20" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0016" x="475" y="4454" width="464" height="870" frameX="-16" frameY="-20" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0017" x="5499" y="3547" width="465" height="881" frameX="-16" frameY="-9" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0018" x="5499" y="3547" width="465" height="881" frameX="-16" frameY="-9" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0019" x="5968" y="3547" width="467" height="879" frameX="-16" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0020" x="5968" y="3547" width="467" height="879" frameX="-16" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0021" x="6439" y="3547" width="467" height="884" frameX="-16" frameY="-6" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0022" x="6439" y="3547" width="467" height="884" frameX="-16" frameY="-6" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0023" x="6910" y="3547" width="464" height="872" frameX="-16" frameY="-18" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0024" x="6910" y="3547" width="464" height="872" frameX="-16" frameY="-18" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0025" x="7378" y="3547" width="466" height="879" frameX="-16" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0026" x="7378" y="3547" width="466" height="879" frameX="-16" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0027" x="4" y="4454" width="467" height="890" frameX="-16" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0028" x="4" y="4454" width="467" height="890" frameX="-16" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS RIGHT0029" x="475" y="4454" width="464" height="870" frameX="-16" frameY="-20" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF MISS UP0000" x="943" y="4454" width="413" height="872" pivotX="44.7" pivotY="486.5" frameX="0" frameY="-66" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0001" x="1360" y="4454" width="397" height="898" frameX="-10" frameY="-40" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0002" x="1761" y="4454" width="397" height="901" frameX="-9" frameY="-37" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0003" x="2162" y="4454" width="391" height="933" frameX="-12" frameY="-5" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0004" x="2162" y="4454" width="391" height="933" frameX="-12" frameY="-5" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0005" x="2557" y="4454" width="392" height="935" frameX="-8" frameY="-3" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0006" x="2557" y="4454" width="392" height="935" frameX="-8" frameY="-3" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0007" x="2953" y="4454" width="396" height="937" frameX="-8" frameY="-1" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0008" x="2953" y="4454" width="396" height="937" frameX="-8" frameY="-1" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0009" x="3353" y="4454" width="384" height="938" frameX="-8" frameY="0" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0010" x="3353" y="4454" width="384" height="938" frameX="-8" frameY="0" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0011" x="3741" y="4454" width="388" height="935" frameX="-14" frameY="-3" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0012" x="3741" y="4454" width="388" height="935" frameX="-14" frameY="-3" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0013" x="4133" y="4454" width="378" height="938" frameX="-20" frameY="0" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0014" x="4133" y="4454" width="378" height="938" frameX="-20" frameY="0" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0015" x="4515" y="4454" width="391" height="930" frameX="-13" frameY="-8" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0016" x="4515" y="4454" width="391" height="930" frameX="-13" frameY="-8" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0017" x="2162" y="4454" width="391" height="933" frameX="-12" frameY="-5" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0018" x="2162" y="4454" width="391" height="933" frameX="-12" frameY="-5" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0019" x="2557" y="4454" width="392" height="935" frameX="-8" frameY="-3" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0020" x="2557" y="4454" width="392" height="935" frameX="-8" frameY="-3" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0021" x="2953" y="4454" width="396" height="937" frameX="-8" frameY="-1" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0022" x="2953" y="4454" width="396" height="937" frameX="-8" frameY="-1" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0023" x="3353" y="4454" width="384" height="938" frameX="-8" frameY="0" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0024" x="3353" y="4454" width="384" height="938" frameX="-8" frameY="0" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0025" x="3741" y="4454" width="388" height="935" frameX="-14" frameY="-3" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0026" x="3741" y="4454" width="388" height="935" frameX="-14" frameY="-3" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0027" x="4133" y="4454" width="378" height="938" frameX="-20" frameY="0" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0028" x="4133" y="4454" width="378" height="938" frameX="-20" frameY="0" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF MISS UP0029" x="4515" y="4454" width="391" height="930" frameX="-13" frameY="-8" frameWidth="413" frameHeight="938"/>
+	<SubTexture name="Freak BF RIGHT ALT0000" x="4910" y="4454" width="460" height="890" pivotX="15.3" pivotY="460" frameX="0" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0001" x="4910" y="4454" width="460" height="890" frameX="0" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0002" x="5374" y="4454" width="462" height="881" frameX="-19" frameY="-9" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0003" x="5374" y="4454" width="462" height="881" frameX="-19" frameY="-9" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0004" x="5840" y="4454" width="464" height="879" frameX="-19" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0005" x="5840" y="4454" width="464" height="879" frameX="-19" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0006" x="6308" y="4454" width="464" height="884" frameX="-19" frameY="-6" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0007" x="6308" y="4454" width="464" height="884" frameX="-19" frameY="-6" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0008" x="6776" y="4454" width="461" height="872" frameX="-19" frameY="-18" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0009" x="6776" y="4454" width="461" height="872" frameX="-19" frameY="-18" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0010" x="7241" y="4454" width="463" height="879" frameX="-19" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0011" x="7241" y="4454" width="463" height="879" frameX="-19" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0012" x="7708" y="4454" width="464" height="890" frameX="-19" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0013" x="7708" y="4454" width="464" height="890" frameX="-19" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0014" x="4" y="5396" width="461" height="870" frameX="-19" frameY="-20" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0015" x="4" y="5396" width="461" height="870" frameX="-19" frameY="-20" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0016" x="5374" y="4454" width="462" height="881" frameX="-19" frameY="-9" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0017" x="5374" y="4454" width="462" height="881" frameX="-19" frameY="-9" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0018" x="5840" y="4454" width="464" height="879" frameX="-19" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0019" x="5840" y="4454" width="464" height="879" frameX="-19" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0020" x="6308" y="4454" width="464" height="884" frameX="-19" frameY="-6" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0021" x="6308" y="4454" width="464" height="884" frameX="-19" frameY="-6" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0022" x="6776" y="4454" width="461" height="872" frameX="-19" frameY="-18" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0023" x="6776" y="4454" width="461" height="872" frameX="-19" frameY="-18" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0024" x="7241" y="4454" width="463" height="879" frameX="-19" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0025" x="7241" y="4454" width="463" height="879" frameX="-19" frameY="-11" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0026" x="7708" y="4454" width="464" height="890" frameX="-19" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0027" x="7708" y="4454" width="464" height="890" frameX="-19" frameY="0" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0028" x="4" y="5396" width="461" height="870" frameX="-19" frameY="-20" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF RIGHT ALT0029" x="4" y="5396" width="461" height="870" frameX="-19" frameY="-20" frameWidth="483" frameHeight="890"/>
+	<SubTexture name="Freak BF Right0000" x="469" y="5396" width="504" height="921" pivotX="5.45" pivotY="490.8" frameX="-11" frameY="0" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0001" x="977" y="5396" width="510" height="916" frameX="-5" frameY="0" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0002" x="1491" y="5396" width="488" height="893" frameX="-5" frameY="-23" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0003" x="1983" y="5396" width="493" height="899" frameX="0" frameY="-23" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0004" x="2480" y="5396" width="463" height="881" frameX="0" frameY="-41" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0005" x="2947" y="5396" width="457" height="880" frameX="-6" frameY="-41" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0006" x="3408" y="5396" width="467" height="891" frameX="-6" frameY="-30" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0007" x="3408" y="5396" width="467" height="891" frameX="-6" frameY="-30" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0008" x="3879" y="5396" width="464" height="870" frameX="-6" frameY="-50" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0009" x="3879" y="5396" width="464" height="870" frameX="-6" frameY="-50" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0010" x="4347" y="5396" width="465" height="882" frameX="-6" frameY="-39" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0011" x="4347" y="5396" width="465" height="882" frameX="-6" frameY="-39" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0012" x="4816" y="5396" width="467" height="879" frameX="-6" frameY="-41" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0013" x="4816" y="5396" width="467" height="879" frameX="-6" frameY="-41" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0014" x="5287" y="5396" width="467" height="885" frameX="-6" frameY="-36" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0015" x="5287" y="5396" width="467" height="885" frameX="-6" frameY="-36" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0016" x="5758" y="5396" width="464" height="872" frameX="-6" frameY="-48" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0017" x="5758" y="5396" width="464" height="872" frameX="-6" frameY="-48" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0018" x="6226" y="5396" width="466" height="880" frameX="-6" frameY="-41" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0019" x="6226" y="5396" width="466" height="880" frameX="-6" frameY="-41" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0020" x="6696" y="5396" width="467" height="890" frameX="-6" frameY="-30" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0021" x="6696" y="5396" width="467" height="890" frameX="-6" frameY="-30" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0022" x="7167" y="5396" width="464" height="871" frameX="-6" frameY="-50" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0023" x="7167" y="5396" width="464" height="871" frameX="-6" frameY="-50" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0024" x="7635" y="5396" width="465" height="881" frameX="-6" frameY="-39" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0025" x="7635" y="5396" width="465" height="881" frameX="-6" frameY="-39" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0026" x="4" y="6321" width="467" height="880" frameX="-6" frameY="-41" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0027" x="4" y="6321" width="467" height="880" frameX="-6" frameY="-41" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0028" x="475" y="6321" width="467" height="884" frameX="-6" frameY="-36" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF Right0029" x="475" y="6321" width="467" height="884" frameX="-6" frameY="-36" frameWidth="515" frameHeight="922"/>
+	<SubTexture name="Freak BF UP ALT0000" x="946" y="6321" width="413" height="872" pivotX="44.7" pivotY="454.35" frameX="0" frameY="-34" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0001" x="946" y="6321" width="413" height="872" frameX="0" frameY="-34" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0002" x="1363" y="6321" width="397" height="899" frameX="-10" frameY="-8" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0003" x="1764" y="6321" width="397" height="902" frameX="-9" frameY="-5" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0004" x="1764" y="6321" width="397" height="902" frameX="-9" frameY="-5" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0005" x="2165" y="6321" width="398" height="904" frameX="-5" frameY="-3" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0006" x="2165" y="6321" width="398" height="904" frameX="-5" frameY="-3" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0007" x="2567" y="6321" width="402" height="906" frameX="-5" frameY="-1" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0008" x="2567" y="6321" width="402" height="906" frameX="-5" frameY="-1" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0009" x="2973" y="6321" width="390" height="907" frameX="-5" frameY="0" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0010" x="2973" y="6321" width="390" height="907" frameX="-5" frameY="0" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0011" x="3367" y="6321" width="394" height="904" frameX="-11" frameY="-3" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0012" x="3367" y="6321" width="394" height="904" frameX="-11" frameY="-3" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0013" x="3765" y="6321" width="384" height="907" frameX="-17" frameY="0" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0014" x="3765" y="6321" width="384" height="907" frameX="-17" frameY="0" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0015" x="1363" y="6321" width="397" height="899" frameX="-10" frameY="-8" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0016" x="1363" y="6321" width="397" height="899" frameX="-10" frameY="-8" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0017" x="1764" y="6321" width="397" height="902" frameX="-9" frameY="-5" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0018" x="1764" y="6321" width="397" height="902" frameX="-9" frameY="-5" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0019" x="2165" y="6321" width="398" height="904" frameX="-5" frameY="-3" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0020" x="2165" y="6321" width="398" height="904" frameX="-5" frameY="-3" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0021" x="2567" y="6321" width="402" height="906" frameX="-5" frameY="-1" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0022" x="2567" y="6321" width="402" height="906" frameX="-5" frameY="-1" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0023" x="2973" y="6321" width="390" height="907" frameX="-5" frameY="0" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0024" x="2973" y="6321" width="390" height="907" frameX="-5" frameY="0" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0025" x="3367" y="6321" width="394" height="904" frameX="-11" frameY="-3" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0026" x="3367" y="6321" width="394" height="904" frameX="-11" frameY="-3" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0027" x="3765" y="6321" width="384" height="907" frameX="-17" frameY="0" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0028" x="3765" y="6321" width="384" height="907" frameX="-17" frameY="0" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF UP ALT0029" x="1363" y="6321" width="397" height="899" frameX="-10" frameY="-8" frameWidth="413" frameHeight="907"/>
+	<SubTexture name="Freak BF Up0000" x="4153" y="6321" width="363" height="1066" pivotX="38.4" pivotY="616.3" frameX="-17" frameY="0" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0001" x="4520" y="6321" width="363" height="1062" frameX="-17" frameY="0" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0002" x="4887" y="6321" width="369" height="1056" frameX="-13" frameY="-12" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0003" x="4887" y="6321" width="369" height="1056" frameX="-13" frameY="-12" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0004" x="5260" y="6321" width="396" height="1034" frameX="0" frameY="-34" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0005" x="5260" y="6321" width="396" height="1034" frameX="0" frameY="-34" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0006" x="5660" y="6321" width="390" height="1053" frameX="-5" frameY="-15" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0007" x="5660" y="6321" width="390" height="1053" frameX="-5" frameY="-15" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0008" x="6054" y="6321" width="378" height="1054" frameX="-5" frameY="-14" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0009" x="6054" y="6321" width="378" height="1054" frameX="-5" frameY="-14" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0010" x="6436" y="6321" width="381" height="1050" frameX="-11" frameY="-18" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0011" x="6436" y="6321" width="381" height="1050" frameX="-11" frameY="-18" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0012" x="6821" y="6321" width="372" height="1054" frameX="-17" frameY="-14" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0013" x="6821" y="6321" width="372" height="1054" frameX="-17" frameY="-14" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0014" x="7197" y="6321" width="384" height="1045" frameX="-10" frameY="-23" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0015" x="7197" y="6321" width="384" height="1045" frameX="-10" frameY="-23" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0016" x="7585" y="6321" width="385" height="1049" frameX="-9" frameY="-19" frameWidth="396" frameHeight="1068"/>
+	<SubTexture name="Freak BF Up0017" x="7585" y="6321" width="385" height="1049" frameX="-9" frameY="-19" frameWidth="396" frameHeight="1068"/>
+</TextureAtlas>
