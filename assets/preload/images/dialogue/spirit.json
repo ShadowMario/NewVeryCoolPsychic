@@ -18,6 +18,19 @@
 			],
 			"loop_name": "SPIRIT LOOP",
 			"idle_name": "SPIRIT0"
+		},
+		{
+			"anim": "bruh",
+			"loop_offsets": [
+				2,
+				-10
+			],
+			"idle_offsets": [
+				2,
+				-10
+			],
+			"loop_name": "SPIRIT0",
+			"idle_name": "SPIRIT0"
 		}
 	],
 	"image": "Spirit_Dialogue"

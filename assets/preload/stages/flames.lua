@@ -7,7 +7,7 @@ function onCreate()
 	addLuaSprite('bgFlames', false);
 	setProperty('gfGroup.visible', false);
 	
-	if not lowQuality then
+	if getPropertyFromClass('ClientPrefs', 'uproarParticles') then
 		spawnParticles();
 	end
 end
@@ -83,7 +83,7 @@ function onUpdate(elapsed)
 		setPropertyFromGroup('opponentStrums', i, 'y', _G['defaultOpponentStrumY'..i] + getRandomFloat(-shakeAmount, shakeAmount));
 	end
 	
-	if not lowQuality then
+	if getPropertyFromClass('ClientPrefs', 'uproarParticles') then
 		particleThink();
 	end
 end

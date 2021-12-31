@@ -2071,6 +2071,7 @@ class PlayState extends MusicBeatState
 	var startedCountdown:Bool = false;
 	var canPause:Bool = true;
 	var limoSpeed:Float = 0;
+	var skipCutsceneHold:Float = 0;
 
 	override public function update(elapsed:Float)
 	{
@@ -2078,6 +2079,31 @@ class PlayState extends MusicBeatState
 		{
 			iconP1.swapOldIcon();
 		}*/
+
+		#if desktop
+		var video = FlxVideo.vlcBitmap;
+		if(video != null)
+		{
+			if(FlxG.keys.pressed.ANY)
+			{
+				skipCutsceneHold += elapsed;
+				FlxVideo.skipText.alpha = 0.25 + skipCutsceneHold * 0.75;
+				if (skipCutsceneHold > 1)
+				{
+					callOnLuas('onSkipCutscene', []);
+					if(video.onComplete != null)
+						video.onComplete();
+
+					skipCutsceneHold = 0;
+				}
+			}
+			else
+			{
+				FlxVideo.skipText.alpha = 0;
+				skipCutsceneHold = 0;
+			}
+		}
+		#end
 
 		callOnLuas('onUpdate', [elapsed]);
 

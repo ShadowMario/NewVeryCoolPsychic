@@ -47,6 +47,12 @@ function onStartCountdown()
 	return Function_Continue;
 end
 
+function onSkipCutscene()
+	timerTag = 'End for real';
+	cancelTimer(timerTag);
+	onTimerCompleted(timerTag, 0, 0);
+end
+
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
 		startDialogue('dialogue', 'Spiritual_Unrest');

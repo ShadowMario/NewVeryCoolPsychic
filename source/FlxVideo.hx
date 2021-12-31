@@ -9,6 +9,11 @@ import vlc.VlcBitmap;
 #end
 import flixel.FlxBasic;
 import flixel.FlxG;
+import openfl.text.TextField;
+import openfl.text.TextFormat;
+import openfl.text.TextFormatAlign;
+import flixel.util.FlxColor;
+import openfl.utils.Assets;
 
 class FlxVideo extends FlxBasic {
 	#if VIDEOS_ALLOWED
@@ -16,6 +21,7 @@ class FlxVideo extends FlxBasic {
 	
 	#if desktop
 	public static var vlcBitmap:VlcBitmap;
+	public static var skipText:TextField;
 	#end
 
 	public function new(name:String) {
@@ -64,6 +70,16 @@ class FlxVideo extends FlxBasic {
 
 		FlxG.addChildBelowMouse(vlcBitmap);
 		vlcBitmap.play(checkFile(name));
+
+		skipText = new TextField();
+		skipText.text = "Hold ANY to Skip Cutscene";
+		skipText.defaultTextFormat = new TextFormat('_sans', 32, FlxColor.WHITE, false, false, false, "", "", TextFormatAlign.CENTER, 0, 0, 0, 0); //hello mario
+		skipText.alpha = 0;
+		skipText.width = FlxG.width;
+		skipText.y += 600;
+		skipText.selectable = false;
+		skipText.mouseEnabled = false;
+		FlxG.addChildBelowMouse(skipText);
 		#end
 	}
 
@@ -112,6 +128,11 @@ class FlxVideo extends FlxBasic {
 		if (FlxG.game.contains(vlcBitmap))
 		{
 			FlxG.game.removeChild(vlcBitmap);
+		}
+
+		if(FlxG.game.contains(skipText))
+		{
+			FlxG.game.removeChild(skipText);
 		}
 
 		if (finishCallback != null)
