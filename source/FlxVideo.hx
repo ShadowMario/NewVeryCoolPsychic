@@ -5,7 +5,9 @@ import openfl.events.NetStatusEvent;
 import openfl.media.Video;
 #else
 import openfl.events.Event;
+#if VIDEOS_ALLOWED
 import vlc.VlcBitmap;
+#end
 #end
 import flixel.FlxBasic;
 import flixel.FlxG;
