@@ -301,11 +301,18 @@ class VlcBitmap extends Bitmap
 		duration = libvlc.getDuration();
 		length = libvlc.getLength();
 
+		if (bmdBuf != null)
+			bmdBuf.dispose();
+
+		if (bmdBuf2 != null)
+			bmdBuf2.dispose();
+
 		if (bitmapData != null)
 			bitmapData.dispose();
 
 		if (texture != null)
 			texture.dispose();
+
 		if (texture2 != null)
 			texture2.dispose();
 

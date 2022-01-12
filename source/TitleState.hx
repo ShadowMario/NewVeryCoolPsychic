@@ -371,8 +371,8 @@ class TitleState extends MusicBeatState
 		add(stupidHeads);
 
 		var headsNames:Array<String> = [
-			'riveroaken', 'shadowmario', 'iflicky',
-			'leomming', 'pjsvoicearts', 'lymph'
+				'riveroaken', 'shadowmario', 'iflicky',
+			'longestsoloever', 'leomming', 'pjsvoicearts', 'lymph'
 		];
 		for (i in 0...headsNames.length)
 		{
@@ -381,7 +381,14 @@ class TitleState extends MusicBeatState
 
 			var spr:FlxSprite = new FlxSprite(0, y).loadGraphic(Paths.image('credits/' + headsNames[i]));
 			spr.screenCenter(X);
-			spr.x += ((i % 3) - 1) * 200;
+			if(i < 3)
+			{
+				spr.x += ((i % 3) - 1) * 200;
+			}
+			else
+			{
+				spr.x += (((i - 3) % 4) - 2) * 200 + 100;
+			}
 			stupidHeads.add(spr);
 		}
 

@@ -273,6 +273,8 @@ class PlayState extends MusicBeatState
 	public var psychicNoteTrail5:AttachedSprite;
 	public var psychicNoteTrail6:AttachedSprite;
 	public var psychicNoteTrail7:AttachedSprite;
+	public var bgFlames:BGSprite;
+	public var flameIsBig:Bool = false;
 
 	override public function create()
 	{
@@ -676,6 +678,11 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+			
+			case 'flames':
+				bgFlames = new BGSprite('psychic/BG_Flames', -460, -520, 0.95, 0.98, ['BG Flames0', 'BG Flames Crazy'], true);
+				add(bgFlames);
+				gfGroup.visible = false;
 		}
 
 		if(isPixelStage) {
@@ -1305,7 +1312,7 @@ class PlayState extends MusicBeatState
 		char.y += char.positionArray[1];
 	}
 
-	public function startVideo(name:String):Void {
+	public function startVideo(name:String, autoEndSong:Bool = true, bgColor:FlxColor = FlxColor.BLACK, ?startStopped:Bool = false):Void {
 		#if VIDEOS_ALLOWED
 		var foundFile:Bool = false;
 		var fileName:String = #if MODS_ALLOWED Paths.modFolders('videos/' + name + '.' + Paths.VIDEO_EXT); #else ''; #end
@@ -1328,17 +1335,37 @@ class PlayState extends MusicBeatState
 
 		if(foundFile) {
 			inCutscene = true;
-			var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+			var bg:FlxSprite = null;
+			bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, bgColor);
 			bg.scrollFactor.set();
 			bg.cameras = [camHUD];
 			add(bg);
 
-			(new FlxVideo(fileName)).finishCallback = function() {
+			var vid:FlxVideo = new FlxVideo(fileName, startStopped);
+			vid.disabled = startStopped;
+			videos.push(vid);
+
+			var curVid:Int = videos.length - 1;
+			vid.finishCallback = function() {
 				remove(bg);
-				if(endingSong) {
-					endSong();
+				bg.destroy();
+
+				if(autoEndSong)
+				{
+					if(endingSong) {
+						endSong();
+					} else {
+						startCountdown();
+					}
 				} else {
-					startCountdown();
+					videos[curVid - 1].disabled = false;
+					videos[curVid - 1].vlcBitmap.resume();
+					videos[curVid - 1].vlcBitmap.seek(0);
+				}
+
+				if(!skippedCutscenes)
+				{
+					videos.remove(vid);
 				}
 			}
 			return;
@@ -2072,6 +2099,7 @@ class PlayState extends MusicBeatState
 	var canPause:Bool = true;
 	var limoSpeed:Float = 0;
 	var skipCutsceneHold:Float = 0;
+	var skippedCutscenes:Bool = false;
 
 	override public function update(elapsed:Float)
 	{
@@ -2081,26 +2109,43 @@ class PlayState extends MusicBeatState
 		}*/
 
 		#if desktop
-		var video = FlxVideo.vlcBitmap;
-		if(video != null)
+		if(videos.length > 0)
 		{
-			if(FlxG.keys.pressed.ANY)
+			var skipped:Bool = false;
+			for (video in videos)
 			{
-				skipCutsceneHold += elapsed;
-				FlxVideo.skipText.alpha = 0.25 + skipCutsceneHold * 0.75;
-				if (skipCutsceneHold > 1)
+				var bitmap = video.vlcBitmap;
+				if(bitmap != null)
 				{
-					callOnLuas('onSkipCutscene', []);
-					if(video.onComplete != null)
-						video.onComplete();
+					if(!video.disabled)
+					{
+						if(FlxG.keys.pressed.ANY)
+						{
+							skipCutsceneHold += elapsed;
+							video.skipText.alpha = 0.25 + skipCutsceneHold * 0.75;
+							if (skipCutsceneHold > 1)
+							{
+								skippedCutscenes = true;
+								for (theVideo in videos)
+								{
+									if(theVideo.vlcBitmap != null && theVideo.vlcBitmap.onComplete != null)
+									{
+										theVideo.vlcBitmap.onComplete();
+									}
+								}
 
-					skipCutsceneHold = 0;
+								videos = [];
+								skipCutsceneHold = 0;
+								break;
+							}
+						}
+						else
+						{
+							video.skipText.alpha = 0;
+							skipCutsceneHold = 0;
+						}
+					}
 				}
-			}
-			else
-			{
-				FlxVideo.skipText.alpha = 0;
-				skipCutsceneHold = 0;
 			}
 		}
 		#end
@@ -3016,6 +3061,35 @@ class PlayState extends MusicBeatState
 						}
 					});
 				}
+			
+			case 'BG Flames Get Crazy':
+				#if MODS_ALLOWED
+				if(!flameIsBig)
+				{
+					flameIsBig = true;
+					var redFlash:FlxSprite = new FlxSprite(-500, -400).makeGraphic(FlxG.width * 2, FlxG.height * 2, 0xFFFF8ACE);
+					add(redFlash);
+
+					FunkinLua.cancelTween('redFlashTween');
+					modchartTweens.set('redFlashTween', FlxTween.tween(redFlash, {alpha: 0}, 1.5, {ease: FlxEase.sineOut, onComplete: function(twn:FlxTween) {
+						modchartTweens.remove('redFlashTween');
+						remove(redFlash);
+						redFlash.destroy();
+					}}));
+
+					FunkinLua.cancelTimer('particleSpawn');
+					modchartTimers.set('particleSpawn', new FlxTimer().start(0.025, function(tmr:FlxTimer) {
+						callOnLuas('onTimerCompleted', ['particleSpawn', tmr.loops, tmr.loopsLeft]);
+					}, 0));
+
+					if (ClientPrefs.camZooms)
+					{
+						camGame.zoom += 0.5;
+						camHUD.zoom += 0.4;
+					}
+					bgFlames.animation.play('BG Flames Crazy', true);
+				}
+				#end
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
@@ -3099,9 +3173,15 @@ class PlayState extends MusicBeatState
 		camFollowPos.setPosition(x, y);
 	}
 
+	var playedTheCutscenes:Bool = false;
 	function finishSong():Void
 	{
 		var finishCallback:Void->Void = endSong; //In case you want to change it in a specific song.
+		if(Paths.formatToSongPath(SONG.song) == 'uproar' && isStoryMode && !playedTheCutscenes)
+		{
+			finishCallback = startUproarCutscenes;
+			playedTheCutscenes = true;
+		}
 
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
@@ -3114,8 +3194,23 @@ class PlayState extends MusicBeatState
 				finishCallback();
 			});
 		}
+		FlxG.sound.music.pause();
+		FlxG.sound.music.onComplete = null;
 	}
 
+	function startUproarCutscenes()
+	{
+		inCutscene = true;
+		endingSong = true;
+		canPause = false;
+		#if html5
+		var array:Array<Dynamic> = ['dont delete this', 123];
+		var copiedArray:Array<Dynamic> = array.copy();
+		#else
+		startVideo('Uproar_Cutscene2', true, FlxColor.WHITE, true);
+		startVideo('Uproar_Cutscene', false, FlxColor.WHITE, false);
+		#end
+	}
 
 	var transitioning = false;
 	public function endSong():Void
@@ -3192,7 +3287,7 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
-					if(Paths.formatToSongPath(SONG.song) == 'uproar') //The end...?
+					if(Paths.formatToSongPath(SONG.song) == 'uproar' && !skippedCutscenes) //The end...?
 					{
 						cancelFadeTween();
 						FlxTransitionableState.skipNextTransIn = true;
@@ -3201,6 +3296,13 @@ class PlayState extends MusicBeatState
 					}
 					else 
 					{
+						if(Paths.formatToSongPath(SONG.song) == 'uproar') {
+							var bg:FlxSprite = null;
+							bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+							bg.scrollFactor.set();
+							bg.cameras = [camHUD];
+							add(bg);
+						}
 						FlxG.sound.playMusic(Paths.music('freakyMenu'));
 
 						cancelFadeTween();
@@ -3656,7 +3758,7 @@ class PlayState extends MusicBeatState
 		// FlxG.watch.addQuick('asdfa', upP);
 		if (!boyfriend.stunned && generatedMusic)
 		{
-			// rewritten inputs???
+			#if desktop // rewritten inputs???
 			notes.forEachAlive(function(daNote:Note)
 			{
 				// hold note functions
@@ -3664,7 +3766,7 @@ class PlayState extends MusicBeatState
 				&& daNote.mustPress && !daNote.tooLate && !daNote.wasGoodHit) {
 					goodNoteHit(daNote);
 				}
-			});
+			}); #end
 
 			if (controlHoldArray.contains(true) && !endingSong) {
 				#if ACHIEVEMENTS_ALLOWED
@@ -3866,7 +3968,10 @@ class PlayState extends MusicBeatState
 				popUpScore(note);
 				if(combo > 9999) combo = 9999;
 			}
+			
+			#if !html5
 			health += note.hitHealth * healthGain;
+			#end
 
 			if(!note.noAnimation) {
 				var daAlt = '';

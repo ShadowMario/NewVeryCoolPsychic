@@ -1584,7 +1584,7 @@ class FunkinLua {
 		PlayState.instance.modchartSprites.remove(tag);
 	}
 
-	function cancelTween(tag:String) {
+	public static function cancelTween(tag:String) {
 		if(PlayState.instance.modchartTweens.exists(tag)) {
 			PlayState.instance.modchartTweens.get(tag).cancel();
 			PlayState.instance.modchartTweens.get(tag).destroy();
@@ -1609,7 +1609,7 @@ class FunkinLua {
 		return sexyProp;
 	}
 
-	function cancelTimer(tag:String) {
+	public static function cancelTimer(tag:String) {
 		if(PlayState.instance.modchartTimers.exists(tag)) {
 			var theTimer:FlxTimer = PlayState.instance.modchartTimers.get(tag);
 			theTimer.cancel();

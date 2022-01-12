@@ -183,10 +183,12 @@ class WeekData {
 			if(week != null)
 			{
 				var weekFile:WeekData = new WeekData(week);
+				#if MODS_ALLOWED
 				if(i >= originalLength)
 				{
 					weekFile.folder = directory.substring(Paths.mods().length, directory.length-1);
 				}
+				#end
 
 				if((PlayState.isStoryMode && !weekFile.hideStoryMode) || (!PlayState.isStoryMode && !weekFile.hideFreeplay))
 				{

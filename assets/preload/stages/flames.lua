@@ -1,12 +1,4 @@
 function onCreate()
-	makeAnimatedLuaSprite('bgFlames', 'psychic/BG_Flames', -460, -520)
-	addAnimationByPrefix('bgFlames', 'normal', 'BG Flames0');
-	addAnimationByPrefix('bgFlames', 'crazy', 'BG Flames Crazy');
-
-	setScrollFactor('bgFlames', 0.95, 0.98);
-	addLuaSprite('bgFlames', false);
-	setProperty('gfGroup.visible', false);
-	
 	if getPropertyFromClass('ClientPrefs', 'uproarParticles') then
 		spawnParticles();
 	end
@@ -30,24 +22,8 @@ function onCountdownStarted()
 end
 
 -- animate BG
-flameIsBig = false;
 function onEvent(name, value1, value2)
-	if name == "BG Flames Get Crazy" and not (getProperty('bgFlames.animation.curAnim.name') == 'crazy') then
-		makeLuaSprite('redFlash', nil, -500, -400);
-		makeGraphic('redFlash', screenWidth * 2, screenHeight * 2, 'FF8ACE');
-		--setBlendMode('redFlash', 'add');
-		addLuaSprite('redFlash', true);
-		doTweenAlpha('redFlashTween', 'redFlash', 0, 1.5, 'sineOut');
-		runTimer('removeRedFlash', 1);
-		objectPlayAnimation('bgFlames', 'crazy');
-		flameIsBig = true;
-		runTimer('particleSpawn', 0.025, 0);
-
-		if cameraZoomOnBeat then
-			setProperty('camGame.zoom', getProperty('camGame.zoom') + 0.5);
-			setProperty('camHUD.zoom', getProperty('camHUD.zoom') + 0.4);
-		end
-	elseif name == 'Flip Notes' or name == 'Swap Notes' then
+	if name == 'Flip Notes' or name == 'Swap Notes' then
 		runTimer('Save New Note X', 0.31);
 		isMoving = true;
 	elseif name == 'Must Press Swap' then
@@ -57,7 +33,7 @@ function onEvent(name, value1, value2)
 end
 
 function onUpdate(elapsed)
-	if not flameIsBig or difficulty == 0 then
+	if difficulty == 0 or not (getProperty('flameIsBig')) or getProperty('endingSong') then
 		return;
 	end
 
@@ -131,24 +107,23 @@ function particleTimer()
 		particleCount = 1;
 	end
 
+	flameIsBig = getProperty('flameIsBig');
 	tag = ('flamesParticle'..particleCount);
-	math.randomseed(os.clock() * 100 + getSongPosition());
-	setProperty(tag..'.scale.x', math.random(1000, 1500) / 1000);
+	setProperty(tag..'.scale.x', getRandomFloat(1000, 1500) / 1000);
 	if flameIsBig then
-		setProperty(tag..'.x', math.random(-500, 2000));
+		setProperty(tag..'.x', getRandomFloat(-500, 2000));
 	else
-		setProperty(tag..'.x', math.random(0, 1500));
+		setProperty(tag..'.x', getRandomFloat(0, 1500));
 	end
-	velX = math.random(-50, 50);
+	velX = getRandomFloat(-50, 50);
 	setProperty(tag..'.velocity.x', velX);
-	math.randomseed(os.clock() * 92.4 - getSongPosition());
-	setProperty(tag..'.scale.y', math.random(1000, 1500) / 1000);
+	setProperty(tag..'.scale.y', getRandomFloat(1000, 1500) / 1000);
 	if flameIsBig then
-		setProperty(tag..'.y', math.random(100, 1000));
+		setProperty(tag..'.y', getRandomFloat(100, 1000));
 	else
-		setProperty(tag..'.y', math.random(150, 500));
+		setProperty(tag..'.y', getRandomFloat(150, 500));
 	end
-	setProperty(tag..'.velocity.y', math.random(-75, -150));
+	setProperty(tag..'.velocity.y', getRandomFloat(-75, -150));
 	setProperty(tag..'.alpha', 1);
 
 	if flameIsBig then

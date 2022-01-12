@@ -20,11 +20,12 @@ class FlxVideo extends FlxBasic {
 	public var finishCallback:Void->Void = null;
 	
 	#if desktop
-	public static var vlcBitmap:VlcBitmap;
-	public static var skipText:TextField;
+	public var vlcBitmap:VlcBitmap;
+	public var skipText:TextField;
+	public var disabled:Bool = false;
 	#end
 
-	public function new(name:String) {
+	public function new(name:String, startStopped:Bool = false) {
 		super();
 
 		#if web
@@ -70,6 +71,13 @@ class FlxVideo extends FlxBasic {
 
 		FlxG.addChildBelowMouse(vlcBitmap);
 		vlcBitmap.play(checkFile(name));
+		if(startStopped)
+		{
+			vlcBitmap.onVideoReady = function()
+			{
+				vlcBitmap.pause();
+			};
+		}
 
 		skipText = new TextField();
 		skipText.text = "Hold ANY to Skip Cutscene";
@@ -97,14 +105,14 @@ class FlxVideo extends FlxBasic {
 		return pDir + fileName;
 	}
 	
-	public static function onFocus() {
-		if(vlcBitmap != null) {
+	public function onFocus() {
+		if(vlcBitmap != null && !disabled) {
 			vlcBitmap.resume();
 		}
 	}
 	
-	public static function onFocusLost() {
-		if(vlcBitmap != null) {
+	public function onFocusLost() {
+		if(vlcBitmap != null && !disabled) {
 			vlcBitmap.pause();
 		}
 	}
@@ -113,7 +121,7 @@ class FlxVideo extends FlxBasic {
 	{
 		// shitty volume fix
 		vlcBitmap.volume = 0;
-		if(!FlxG.sound.muted && FlxG.sound.volume > 0.01) { //Kind of fixes the volume being too low when you decrease it
+		if(!FlxG.sound.muted && FlxG.sound.volume > 0.01 /*&& !disabled*/) { //Kind of fixes the volume being too low when you decrease it
 			vlcBitmap.volume = FlxG.sound.volume * 0.5 + 0.5;
 		}
 	}

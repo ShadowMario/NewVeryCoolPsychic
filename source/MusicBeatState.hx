@@ -22,6 +22,7 @@ class MusicBeatState extends FlxUIState
 	private var curStep:Int = 0;
 	private var curBeat:Int = 0;
 	private var controls(get, never):Controls;
+	public var videos:Array<FlxVideo> = [];
 
 	inline function get_controls():Controls
 		return PlayerSettings.player1.controls;
@@ -40,13 +41,19 @@ class MusicBeatState extends FlxUIState
 	#if (VIDEOS_ALLOWED && windows)
 	override public function onFocus():Void
 	{
-		FlxVideo.onFocus();
+		for (video in videos)
+		{
+			video.onFocus();
+		}
 		super.onFocus();
 	}
 	
 	override public function onFocusLost():Void
 	{
-		FlxVideo.onFocusLost();
+		for (video in videos)
+		{
+			video.onFocusLost();
+		}
 		super.onFocusLost();
 	}
 	#end
