@@ -2108,7 +2108,7 @@ class PlayState extends MusicBeatState
 			iconP1.swapOldIcon();
 		}*/
 
-		#if desktop
+		#if (desktop && VIDEOS_ALLOWED)
 		if(videos.length > 0)
 		{
 			var skipped:Bool = false;
