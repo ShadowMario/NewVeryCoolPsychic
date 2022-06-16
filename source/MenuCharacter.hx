@@ -60,7 +60,8 @@ class MenuCharacter extends FlxSprite
 					path = Paths.getPreloadPath('images/menucharacters/' + DEFAULT_CHARACTER + '.json');
 				}
 				rawJson = File.getContent(path);
-
+                              #if mobile(addvirtualpad)A+B
+                             #end
 				#else
 				var path:String = Paths.getPreloadPath(characterPath);
 				if(!Assets.exists(path)) {
