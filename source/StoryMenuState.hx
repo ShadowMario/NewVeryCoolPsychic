@@ -414,8 +414,9 @@ class StoryMenuState extends MusicBeatState
 					if(diffs[i].length < 1) diffs.remove(diffs[i]);
 				}
 				--i;
-			}
+			}#if android (addvirtualpad)A+B)
 
+                        #end
 			if(diffs.length > 0 && diffs[0].length > 0)
 			{
 				CoolUtil.difficulties = diffs;
